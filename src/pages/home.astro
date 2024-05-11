@@ -1,0 +1,76 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h3>Welcome to [Your Blog Name] - Where Boxing Meets Reform</h3>
+			<section>
+				<h4>Why Reform?</h4>
+				<p>For far too long, boxing has been dominated by a select few star boxers, promoters, and power brokers. The result? A system where opportunities are scarce, talent often goes unnoticed, and aspiring athletes are left at the mercy of gatekeepers. We're here to change that. Unlike other combat sports like the UFC, where the focus remains squarely on the sport and competitive matchups, boxing has allowed stars to pick and choose opponents, often favoring easier fights over challenging ones. At [Your Blog Name], we aim to shift this paradigm, prioritizing competitive matchups and merit-based opportunities over financial gains and personal agendas.</p>
+			</section>
+			<section>
+				<h4>Our Vision</h4>
+				<p>We envision a future where talent is recognized and rewarded based on merit, not on connections or marketability. Where up-and-coming fighters have equal access to opportunities and resources, regardless of their background or status. Where the integrity of the sport is upheld above all else.</p>
+			</section>
+			<section>
+				<h4>What We Stand For</h4>
+				<ul>
+					<li><strong>Equality:</strong> Every boxer, regardless of their background, deserves a fair shot at success.</li>
+					<li><strong>Transparency:</strong> We believe in shining a light on the inner workings of the boxing world, holding stakeholders accountable, and advocating for greater transparency.</li>
+					<li><strong>Community:</strong> Boxing is more than just a sport - it's a community. We're committed to fostering a supportive and inclusive environment where fans, fighters, and enthusiasts can come together to celebrate the sport they love.</li>
+				</ul>
+			</section>
+			<section>
+				<h4>What You'll Find Here</h4>
+				<ul>
+					<li><strong>In-Depth Analysis:</strong> From fight breakdowns to industry trends, we provide insightful analysis that goes beyond the surface.</li>
+					<li><strong>Exclusive Interviews:</strong> Get to know the rising stars of boxing through our exclusive interviews and profiles.</li>
+					<li><strong>Advocacy:</strong> We're not afraid to tackle the tough issues facing boxing head-on. From reforming scoring systems to advocating for fair pay, we're dedicated to driving positive change.</li>
+				</ul>
+			</section>
+			<p>Whether you're a die-hard boxing fan or simply passionate about social change, there's a place for you here at [Your Blog Name]. Together, we can reform boxing for the better and ensure that the sport thrives for generations to come. Join us on this journey. The bell has rung - it's time for change.</p>
+			<!-- <h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<p>
+				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
+				template serves as a lightweight, minimally-styled starting point for anyone looking to build
+				a personal website, blog, or portfolio with Astro.
+			</p>
+			<p>
+				This template comes with a few integrations already configured in your
+				<code>astro.config.mjs</code> file. You can customize your setup with
+				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
+				React, or Vue to your project.
+			</p>
+			<p>Here are a few ideas on how to get started with the template:</p>
+			<ul>
+				<li>Edit this page in <code>src/pages/index.astro</code></li>
+				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
+				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
+				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
+				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+			</ul>
+			<p>
+				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
+					>read the docs
+				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+			</p>
+			<p>
+				Looking for a blog template with a bit more personality? Check out <a
+					href="https://github.com/Charca/astro-blog-template"
+					>astro-blog-template
+				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+			</p> -->
+		</main>
+		<Footer />
+	</body>
+</html>
