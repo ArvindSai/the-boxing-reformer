@@ -7,5 +7,4 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://the-boxing-reformer.com',
 	integrations: [mdx(), sitemap()],
-	base: 'the-boxing-reformer'
 });
